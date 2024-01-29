@@ -1,0 +1,11 @@
+import os
+
+
+print (os.getenv("password"))
+print (os.getenv("apitoken"))
+
+password = os.getenv("password")
+
+# to deal with sensitive info we can use env variable and use it in program
+#export password=abcd1234
+# os is also a module
